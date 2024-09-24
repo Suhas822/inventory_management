@@ -64,5 +64,5 @@ python manage.py runserver
 - # register/ #
 - # login/ #
 - # token/refresh/ #
-- # items/#
-- # items/<int:pk>/#
+- # items/ #
+- # items/<int:pk>/ #
