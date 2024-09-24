@@ -24,22 +24,21 @@ python -m venv <env-name>
 
 Note: For Debian/Ubuntu based systems you may need to install python3.10-venv
 
-Step 3: Create .env file (Sample file included)
-Create an env file and refer to sample.env file to get all the variables and fill them with the required values.
 
-Step 4: Activate virtual environment
+
+Step 3: Activate virtual environment
 First go to the directory where venv is created then run the below command to activate the virtual env
+    ```bash
+        For windows: <env-name>\Scripts\activate
+    ```bash
+        For Linux: source <env-name>\bin\activate
 
-For windows: <env-name>\Scripts\activate
-
-For Linux: source <env-name>\bin\activate
-
-Step 5: Install packages
+Step 4: Install packages
 Use below command to install required packages.
 
 pip install -r requirements.txt
 
-Step 6: Migrate all models to Database
+Step 5: Migrate all models to Database
 Run the below mentioned command to migrate all database changes.
 
 Setup Your database credentials in settings.py file
