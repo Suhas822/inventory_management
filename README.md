@@ -58,3 +58,11 @@ Step 6: Run Django development server
 The setup is done now and you can start the development server using below command.
 
 python manage.py runserver
+
+
+### API 
+- # register/ #
+- # login/ #
+- # token/refresh/ #
+- # items/#
+- # items/<int:pk>/#
