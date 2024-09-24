@@ -1,20 +1,24 @@
-Inventory API
-Stack
-Python - 3.10.11
-Django - 5.1.1
-Database- PostgreSQL
-Before attempting below steps make sure you have python installed in your system.
+# Inventory API
 
-Download python 3.10.11 from here.
+### Stack
+- **Python**: 3.10.11
+- **Django**: 5.1.1
+- **Database**: PostgreSQL
 
-Steps to configure Project:
-Step 1: Clone project:
-Clone the project using below mentioned command.
+> **Note**: Ensure you have Python installed on your system before proceeding.
 
-Using HTTP: git clone https://github.com/Suhas822/inventory_management.git
+### Steps to Configure the Project
 
-Using SSH: git clone git@github.com:Suhas822/inventory_management.git
+#### Step 1: Clone the Project
+Clone the project using the following command:
 
+- Using HTTP: 
+  ```bash
+  git clone https://github.com/Suhas822/inventory_management.git
+
+- Using SSH: 
+    ```bash
+  git clone git@github.com:Suhas822/inventory_management.git
 Step 2: Create a virtual env
 python -m venv <env-name>
 
